@@ -5,6 +5,7 @@ body {
   overflow-x: hidden;
   /* Prevent scroll on narrow devices */
 }
+
 header {
   z-index: 1000;
 }
@@ -934,6 +935,12 @@ a:active {
 .box-simple p {
   color: #999999;
 }
+
+.masonry-item p {
+    color:#999999;
+    font-size:16px;
+}
+
 .box-simple:hover .icon {
   -webkit-transform: scale(1.1, 1.1);
   -ms-transform: scale(1.1, 1.1);
