@@ -343,7 +343,6 @@ SIDEBAR + RIGHT COLUMN
   color: #999999;
   font-size: 10px;
   text-align:left;
-  margin-top:-10px;
 }
 .sidebar-p a{
     color:#337FFF;
@@ -380,8 +379,9 @@ SIDEBAR + RIGHT COLUMN
   color: #337FFF;
 }
 .content-column {
-  padding-top: 40px;
+  padding-top: 40px; 
 }
+
 .content-column.white-background {
   background: #fff;
   min-height: 100vh;
@@ -447,6 +447,8 @@ SIDEBAR + RIGHT COLUMN
   color: #000;
   text-decoration: none;
 }
+
+
 /*
 
 =====================
