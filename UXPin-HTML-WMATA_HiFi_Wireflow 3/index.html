@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>WMATA HiFi Wireflow - UXPin Preview</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="apple-touch-icon" href="data/_img_ios-logo-180x180-4f260175.png">
+    <link rel="icon" type="image/png" href="data/_img_favicon-90cb8314.ico">
+    <link rel="icon" sizes="180x180" href="data/_img_ios-logo-180x180-4f260175.png">
+    <link rel="shortcut icon" href="data/_img_favicon-90cb8314.ico">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    
+
+    <link rel="stylesheet" href="data/collaborate.uxpincdn.com_styles__review-78545787.css">
+    
+
+    
+    <!-- auto-generated on export -->
+    <link rel="stylesheet" href="data/fonts.css">
+
+    
+    
+</head>
+
+
+<body ng-controller="HomeController" class="loading" ng-class="{'loading' : isLoading, 'left-panel-active' : (isVisible && sidebarVisible), 'sitemap-visible' : (sitemapVisible && sidebarVisible), 'panel-visible' : (panelVisible && sidebarVisible), 'specification-visible': (specificationVisible && sidebarVisible), 'adding-comment' : isAddingComment, 'dragging' : dragging, 'no-toolbar' : noToolbar || isParticipant, 'crosshair-cursor' : showCrosshairCursor, 'sidebar-collapsed' : sidebarVisible === false, 'mac': isMac}" ng-keydown="keyDown($event)">
+    
+
+    <div ui-view></div>
+    <div ui-view="commentsFilter"></div>
+    <div ng-class="{'fade-in' : specificationFadeIn}" ui-view="specification"></div>
+    <div ng-class="{'fade-in' : panelFadeIn}" ui-view="comments"></div>
+    <div ng-class="{'fade-in' : sitemapFadeIn}" ui-view="sitemap"></div>
+    <div ui-view="nav"></div>
+    <div ui-view="canvas"></div>
+    <section id="responsive-toolbar" adjust-to-viewport-size>
+        <a class="only-icon-font icon-font-arrow show-main-toolbar" ng-click="showToolbar()" toggle-visibility toggle-flag="!isToolbarVisible()" toggle-width-open="34" toggle-width-closed="0" ng-if="!params.isDocument">
+            Show main toolbar
+            <span class="tooltip bottom-arrow">Show main toolbar</span>
+        </a>
+        <div ui-view="approvalProcess"></div>
+        <pv-breakpoints breakpoints="breakpoints"></pv-breakpoints>
+        <ul ui-view="breadcrumbs" ng-if="breadcrumbsVisible" class="breadcrumbs"></ul>
+        <div ui-view="settings"></div>
+    </section>
+    <div ui-view="overlay"></div>
+    <div class="loader"></div>
+
+
+    <script type="text/javascript">
+    window.ApplicationConfiguration = {
+            project:{"id_project":6624937,"custom_font_css_url":"https://api2.uxpin.com/fonts/custom/css/file?id=681531","custom_fonts_url":"http://api.uxpin/fonts/custom/css/?id=681531","id_collection":1484396,"id_account":681531,"name":"WMATA HiFi Wireflow","hash":"abfbdf14c74f6475da2f8c82d0b918caa5bf3fc5","type":"W","features":{"live_share":true,"user_testing":true,"password":true,"team_comments":true,"spec_mode":true,"spec_mode_styleguide":true,"preview_30":true,"preview_30_abtest":true,"comments_assignment":true,"design_views":false},"settings":{"grid":{"enabled":false,"grid_on_top":true,"fixed_width_for_breakpoints":true,"resp0":{"width":"100%","fixed_width":false,"margin":20,"col_width":60,"col_spacing":20,"cols_count":62}},"guides":{"65891012":[]}},"created_at":"2017-01-31T01:11:16Z","updated_at":"2017-02-03T04:16:43Z"},
+            userData:{"is_trial":false,"is_anonymous":true,"is_owner":false},
+            mode: 'export',
+            menuEnabled:true};
+    </script>
+
+    
+        <script type="text/javascript" src="data/collaborate.uxpincdn.com_scripts_engine-9f5e0596.js"></script>
+        <script type="text/javascript" src="data/collaborate.uxpincdn.com_scripts_vendors-e277b51f.js"></script>
+        <script type="text/javascript" src="data/collaborate.uxpincdn.com_scripts_app-02dec2a8.js"></script>
+        
+    
+
+</body>
+
+
+</html>
