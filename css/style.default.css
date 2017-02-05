@@ -742,7 +742,7 @@ span, .progress-title {
 
 
 .resume li, p{
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 0
 }
 
@@ -1955,11 +1955,11 @@ h3,
 }
 
 .lead {
-  font-size: 18px;
+  font-size: 14px;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 .text-small {
