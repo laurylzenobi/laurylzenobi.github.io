@@ -722,7 +722,7 @@ MAIN PORTFOLIO SLIDER
 }
 #main-slider .owl-controls .owl-page.active span,
 #main-slider .owl-controls.clickable .owl-page:hover span {
-  background: #FD9588;
+  background: #337fff;
 }
 /*
 
@@ -1220,7 +1220,7 @@ STYLE SWITCHER FOR DEMO
 }
 .nav-pills{
     background-color:#fff;
-    padding:10px 50px 40px 50px;
+    padding:10px 50px 50px 0;
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover {
