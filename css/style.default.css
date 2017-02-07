@@ -407,7 +407,7 @@ SIDEBAR + RIGHT COLUMN
 }
 .content-column-content p,
 .content-column-content li {
-  color: #999999;
+  color: #4d4d4d;
 }
 .content-column-content ul li {
   list-style-type: none;
@@ -548,7 +548,7 @@ SERVICES / INTEGRATIONS
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 60px;
-  color: #999999;
+  color: #4d4d4d;
 }
 /*
 
