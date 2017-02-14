@@ -16,7 +16,6 @@ header {
     width:100%;
     background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/Interroview/Interroview.png?raw=true');
     background-size:cover;
-    background-position: 0% 0%;
 }
 
 #wmata-banner{
@@ -25,7 +24,6 @@ header {
     width:100%;
     background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/WMATA/WMATA_lofi.png?raw=true');
     background-size:cover;
-    background-position: 0% 5%;
 }
 
 #anthroguide-banner{
