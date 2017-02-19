@@ -10,38 +10,6 @@ header {
   z-index: 1000;
 }
 
-#interrorview-banner{
-    margin-bottom:20px;
-    height:190px;
-    width:100%;
-    background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/Interroview/Interroview.png?raw=true');
-    background-size:cover;
-}
-
-#wmata-banner{
-    margin-bottom:20px;
-    height: 200px;
-    width:100%;
-    background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/WMATA/WMATA_lofi.png?raw=true');
-    background-size:cover;
-    background-position: 0% 10%;
-}
-
-#anthroguide-banner{
-    margin-bottom:20px;
-    height: 200px;
-    width:100%;
-    background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/WMATA/WMATA_lofi.png?raw=true');
-    background-size:cover;
-    background-position: 0% 5%;
-}
-
-
-.portfolio{
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
 section {
   position: relative;
   padding-top: 90px;
@@ -774,14 +742,44 @@ span, .progress-title {
     margin-bottom: 0
 }
 
-
-
 /*
 =====================
 PORTFOLIO
 =====================
 */
 
+#interrorview-banner{
+    margin-bottom:20px;
+    height:190px;
+    width:100%;
+    background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/Interroview/Interroview.png?raw=true');
+    background-size:cover;
+}
+
+#wmata-banner{
+    margin-bottom:20px;
+    height: 200px;
+    width:100%;
+    background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/WMATA/WMATA_lofi.png?raw=true');
+    background-size:cover;
+    background-position: 0% 10%;
+}
+
+#anthroguide-banner{
+    margin-bottom:20px;
+    height: 200px;
+    width:100%;
+    background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/AnthroGuide/bannerimg2.png?raw=true');
+    background-repeat:no-repeat;
+    background-position: 80% 40%;
+}
+
+
+.portfolio{
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
 pullquote{
     font-size:14px;
     font-style: italic;
