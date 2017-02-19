@@ -775,6 +775,24 @@ span, .progress-title {
 }
 
 
+
+/*
+=====================
+PORTFOLIO
+=====================
+*/
+
+pullquote{
+    font-size:14px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+table{
+    font-size:14px;
+}
+
+/*
 =====================
 EKKO LIGHTBOX
 =====================
