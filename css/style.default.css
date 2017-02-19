@@ -752,17 +752,18 @@ PORTFOLIO
     margin-bottom:20px;
     height:190px;
     width: 100%;
-    background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/Interroview/Interroview.png?raw=true');
+    background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/Interroview/interrorviewbanner.png?raw=true');
     background-repeat: no-repeat;
+    background-position: 0% 0%;
 }
 
 #wmata-banner{
     margin-bottom:20px;
     height: 200px;
     width:100%;
-    background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/WMATA/WMATA_lofi.png?raw=true');
+    background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/WMATA/wmatabanner.png?raw=true');
     background-repeat: no-repeat;
-    background-position: 0% 0%;
+    background-position: 30% 0%;
 }
 
 #anthroguide-banner{
