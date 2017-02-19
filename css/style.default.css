@@ -751,9 +751,9 @@ PORTFOLIO
 #interrorview-banner{
     margin-bottom:20px;
     height:190px;
-    width:100%;
+    width: 100%;
     background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/Interroview/Interroview.png?raw=true');
-    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 #wmata-banner{
@@ -761,8 +761,8 @@ PORTFOLIO
     height: 200px;
     width:100%;
     background-image:url('https://github.com/laurylzenobi/laurylzenobi.github.io/blob/master/WMATA/WMATA_lofi.png?raw=true');
-    background-size:cover;
-    background-position: 0% 10%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
 }
 
 #anthroguide-banner{
