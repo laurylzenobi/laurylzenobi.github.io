@@ -562,6 +562,8 @@ nav.mastnav a:focus{
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
 }
+
+
 .slideshow-caption-wrap{
   position: absolute;
   top: 0;
