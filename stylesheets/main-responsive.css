@@ -21,9 +21,9 @@ there.
   .container{
     max-width: 500px;
   }
-  .text-left, .text-right{
+ /***.text-left, .text-right{
     text-align: center;
-  }
+  }***/
   .img-responsive{
     display: inline-block;
   }
@@ -36,9 +36,9 @@ there.
     padding-left: 50px;
     padding-right: 50px;
   }
-  .text-left, .text-right, .mastfoot, .credits, .services-item{
+  /***.text-left, .text-right, .mastfoot, .credits, .services-item{
     text-align: center;
-  }
+  }***/
   .img-responsive{
     display: inline-block;
   }
