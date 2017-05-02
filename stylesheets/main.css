@@ -48,7 +48,7 @@ a{
     border-bottom: 1px #337fff dotted;
 }
 a:hover{
-  text-decoration:none;
+  text-decoration:underline;
 }
 a:focus { 
       outline: none; 
