@@ -45,6 +45,7 @@ a{
 .a-inline{
     color:#337fff;
     font-weight:bold;
+    border-bottom: 1px #337fff dotted;
 }
 a:hover{
   text-decoration:none;
