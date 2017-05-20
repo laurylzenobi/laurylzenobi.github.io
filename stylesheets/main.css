@@ -44,7 +44,7 @@ a{
 
 .a-inline{
     color:#337fff;
-    font-weight:bold;
+    font-weight:normal;
     border-bottom: 1px #337fff dotted;
 }
 a:hover{
@@ -180,6 +180,7 @@ div#preloader {
   width: 200px; 
   height: 200px; 
   position: fixed; 
+  left: 50%; 
   left: 50%; 
   top: 50%; 
   background-image: url(../images/loader.gif); 
