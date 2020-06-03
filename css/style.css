@@ -476,7 +476,7 @@ section.padding-60 {
 }
 
 .service-item {
-  border: solid 1px #EFEFEF;
+  #border: solid 1px #EFEFEF;
   border-radius: 10px;
   padding: 30px 20px;
   -webkit-transition: all 0.3s ease-in-out;
